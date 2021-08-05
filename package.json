@@ -1,0 +1,40 @@
+{
+  "name": "challenge_4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --require babel-register ./test/test.js",
+    "start": "nodemon server.js",
+    "react-dev": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tina-Luk/rpt24-mini-apps-1/tree/master/challenge_4"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-register": "^6.26.0",
+    "body-parser": "^1.19.0",
+    "chai": "^4.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mocha": "^8.2.0",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.5",
+    "path": "^0.12.7",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "mocha-jsdom": "^2.0.0",
+    "webpack": "^5.1.0",
+    "webpack-cli": "^4.0.0"
+  }
+}
